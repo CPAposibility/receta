@@ -1,0 +1,23 @@
+*{margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #002339;
+}
+
+main{
+    background-color: #004563;
+}
+
+footer{
+    background-color: #007395;
+}
+
+#olla{ 
+    width: 35%;
+}
+
+.redes{
+    width: 10%;
+}
