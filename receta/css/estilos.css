@@ -4,6 +4,18 @@
 
 header{
     background-color: #002339;
+    height: 200px;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+.menu-item{
+    font-family: 'bitcount', system-ui;
+    color: #66915d;
+    position: relative;
+    left: 1000px;
+    top: 80px;
 }
 
 main{
@@ -15,9 +27,80 @@ footer{
 }
 
 #olla{ 
-    width: 35%;
+    width: 20%;
+    position: relative;
+    left: 1px;
+    top: 20px;
+}
+#moledeolla{
+    width: 25%;
+    border: 15px rgb(136, 158, 158) groove;
+    position: relative;
+    left: 700px;
+
+}
+.redes{
+    width: 6%;
+    height: 6%;
+    position: relative;
+    left: 1000px;
 }
 
-.redes{
-    width: 10%;
+#titulo {
+    font-family: 'bitcount', system-ui;
+    color: #baf5a7;
+    position: absolute;
+    left: 400px;
+    top: 10px;
+}
+
+#lista_1{
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #010616;
+    position: absolute;
+    top: 300px;
+    left: 5%;
+    border-style: dashed;
+}
+#lista_2{
+    font-style: normal;
+    
+}
+
+.subtitulo {
+    border: 15px rgb(245, 168, 145);
+    padding: 10px;
+    width: 25%;
+    border-radius: 15px;
+    font-family: "Bitcount", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+    
+}
+.boton{
+    position: relative;
+    top: 1px;
+    left: 1100px;
+    background-color: #007395;
+}
+
+#corazon{
+    width: 50px;
+    position: relative;
+    bottom: 750px;
+    left: 650px;
+}
+
+#mail{
+    width: 50px;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
 }
